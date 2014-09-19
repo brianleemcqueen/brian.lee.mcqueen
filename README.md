@@ -26,10 +26,13 @@ Authorization to the applications was handled in a different application combine
 This folder is setup to store binary files.  Below are explanations of the files included:
 
 * VarianceView.sql 
-this is a large SQL statement used to build a report comparing budgeted revenue to actual and forecasted revenue.  A key requirement for the SQL was to include rows that exist in one results and not the other.  This will explain the use of outer joins vs. inner joins
+This is a large SQL statement used to build a report comparing budgeted revenue to actual and forecasted revenue.  A key requirement for the SQL was to include rows that exist in one results and not the other.  This will explain the use of outer joins vs. inner joins
+
+* VIP_Application_Screenshots.pdf
+This is a collection of screen shots from applications designed from 2010 to 2014.
 
 * Web Architecture.pdf
-This pdf shows the architecture setup while I worked with Vermont Information Processing (VIP).  VIP is an established (over 40 year old) company.  However, when I started with the company in 2010, they did not have a web presence.  My goal was to create this web presence while obtaining data from the legacy system on an IBM iSeries.  Web applications started as single stand alone applications and later were re-architected to a single application with a user manager side application to control authorization.
+This shows the architecture setup while I worked with Vermont Information Processing (VIP).  VIP is an established (over 40 year old) company.  However, when I started with the company in 2010, they did not have a web presence.  My goal was to create this web presence while obtaining data from the legacy system on an IBM iSeries.  Web applications started as single stand alone applications and later were re-architected to a single application with a user manager side application to control authorization.
 
 Brian McQueen
 

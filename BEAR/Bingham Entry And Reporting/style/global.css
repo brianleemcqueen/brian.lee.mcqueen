@@ -1,0 +1,29 @@
+﻿/*Styles for Standard GridView*/
+.GridViewFooter
+{
+	background-color:#2a76b2;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.GridViewRow
+{
+	background-color:#F7F6F3;
+	color:#444444;
+}
+.GridViewPager
+{
+	background-color:#2a76b2;
+	color:#FFFFFF;
+	white-space:nowrap;
+	text-align:left;
+}
+.GridViewSelectedRow 
+{
+	background-color:#aab0b7;
+	color:#000000;
+	font-weight:normal;
+}
+	
+	
+	
+	

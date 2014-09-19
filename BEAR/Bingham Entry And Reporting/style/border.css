@@ -1,0 +1,24 @@
+﻿.borderLineTopBlack
+{
+	border-top-style:solid;
+	border-top-color:Black;
+	border-top-width:thin;
+}
+.borderLineBottomBlack
+{
+	border-bottom-style:solid;
+	border-bottom-color:Black;
+	border-bottom-width:thin;
+}
+.borderLineLeftBlack
+{
+	border-left-style:solid;
+	border-left-color:Black;
+	border-left-width:thin;
+}
+.borderLineRightBlack
+{
+	border-right-style:solid;
+	border-right-color:Black;
+	border-right-width:thin;
+}

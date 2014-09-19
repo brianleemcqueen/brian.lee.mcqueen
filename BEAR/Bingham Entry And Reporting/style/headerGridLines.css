@@ -1,0 +1,8 @@
+﻿/*
+th needs to have relative positioning to allow gridlines to display.  This is 
+due to the use of expressions in .GridViewFixedHeader 
+*/
+table th
+{
+	position:relative;
+}

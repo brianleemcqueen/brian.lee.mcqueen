@@ -1,0 +1,103 @@
+﻿.pictureBT
+{
+	position:absolute;
+	top: 50px;
+	left: 40%;
+	z-index:0;	
+}
+.loginBT
+{ 
+	position: absolute; 
+	top: 50px; 
+	left: 5px; 
+	width: 400px; 
+	z-index: 2; 
+}
+.titleBT
+{ 
+	position: absolute; 
+	top: 2px; 
+	left: 0px; 
+	width: 95%;
+	text-align:left; 
+	z-index: 0;
+}
+.searchDivBT
+{
+	position:relative;
+	top: 40px;
+	width: 400px;
+	left: 450px;
+	height: 450px;
+	overflow:auto;
+	z-index:1;	
+}
+.searchClose
+{
+	color:#EB8123;
+	font-weight:bold;
+}
+/*Column Order Page*/
+        .instructionsDiv
+        {
+        	position:absolute;
+        	top:50px;
+        	left:25px;
+        	width:75%;
+        }
+        .instructionsText
+        {
+        	font-size:9pt;
+        	line-height:1.25em;
+        }
+        .additionalNotes
+        {
+        	font-size:8pt;
+        	font-weight:bold;
+        }
+        .optionsColumnOrder 
+        { 
+	        position: absolute; 
+	        top: 1px; 
+	        right: 0;
+	        width: 275px;
+	        z-index: 200; 
+        }
+        .saveOptions
+        {
+        	position: absolute;
+        	left: 300px;
+        	width: 300px;
+        	top: 162px;
+        }
+        .widthOptionsButton
+        {
+        	width: 80px;
+        }
+        .widthSaveButton
+        {
+        	width: 120px;
+        }
+		.OrangeButton
+        {
+	        color:Black;
+	        font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+	        background-color:#EB8123;
+	        border: 1px solid;
+	        border-color: Gray;
+	        cursor:hand;
+        }
+        .liHeading
+        {
+        	list-style-type: none; 
+        	margin-left:-20px;
+        	font-weight:bold;
+        	text-decoration:underline;
+        }
+        .additionalTitle
+        {
+        	font-weight:bold;
+        	font-size:12pt;
+        }
+
+

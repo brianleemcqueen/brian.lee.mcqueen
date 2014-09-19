@@ -1,0 +1,11 @@
+﻿.searchDivER
+{
+	position:relative;
+	top: 40px;
+	width: 400px;
+	left: 450px;
+	height: 450px;
+	overflow:auto;
+	z-index:1;	
+}
+

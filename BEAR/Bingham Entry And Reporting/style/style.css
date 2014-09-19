@@ -1,0 +1,553 @@
+﻿body  
+{
+	font-family: arial, sans-serif;
+	font-size: 8pt; 
+}
+
+#div1 { position: absolute; top: 0px; left: 0px; z-index: 1; }
+#div2 { position: absolute; top: 0; right: 0; z-index: 1; }
+#div3 { position: absolute; bottom: 0; right: 0; z-index: 1; }
+#div4 { position: absolute; bottom: 0; left: 0; z-index: 1; }
+
+.LabelServerMessage
+{
+	font-weight: bold;
+	font-family: Arial;
+	color: #EB8123;
+}
+.title 
+{ 
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	width: 95%;
+	text-align:left; 
+	z-index: 0;
+}
+.email 
+{
+	position: absolute; 
+	top: 50px; 
+	left: 35px; 
+	width: 95%; 
+	z-index: 2; 
+}
+.login 
+{ 
+	position: absolute; 
+	top: 50px; 
+	left: 35px; 
+	width: 200px; 
+	z-index: 2; 
+}
+.options 
+{ 
+	position: absolute; 
+	top: 1px; 
+	right: 0;
+	width: 275px;
+	z-index: 200; 
+}
+.optionsCashManagerDeptUser
+{
+	position: absolute; 
+	top: 1px; 
+	left: 650px;
+	width: 275px;
+	z-index: 200; 
+}
+.optionsCashManagerAdminUser
+{
+	position: absolute; 
+	top: 1px; 
+	left: 750px;
+	width: 275px;
+	z-index: 200; 
+}
+.optionsCashManagerCMUser
+{
+	position: absolute; 
+	top: 1px; 
+	left: 750px;
+	width: 275px;
+	z-index: 200; 
+}
+.header 
+{	
+	position: absolute; 
+ 	top: 34px; 
+ 	left: 5px; 
+ 	z-index: 1;
+ 	overflow: hidden; 
+ 	width: 99%;
+}
+/*.output
+{
+	position:absolute;
+	top: 30px;
+	right: 15px;
+	z-index: 4;
+	width: 107px;
+}*/
+.picture
+{
+	position:absolute;
+	top: 100px;
+	left: 30%;
+	z-index:0;	
+}
+.pictureHome
+{
+	position:absolute;
+	top: 40px;
+	left: 30%;
+	z-index:0;	
+}
+.tablePictureWidth
+{
+	background-color: #2a76b2;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	width: 411px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.searchDiv
+{
+	position:relative;
+	top: 40px;
+	left: 30%;
+	overflow:auto;
+	z-index:1;	
+}
+.searchResults
+{
+	position:absolute;
+	z-index:1;
+	height:340px;
+	overflow:auto;
+	width:400px;
+}
+.data  
+{
+	font: arial, sans-serif;
+	position: absolute; 
+	top: 72px; 
+	left: 5px; 
+	z-index: 3; 
+	overflow: auto; 
+	height:394px;
+	width: 99%;
+	min-width:900px;
+}
+.billTrackerGridView  
+{
+	overflow:hidden;
+	table-layout:fixed;
+}
+.cashManagerData  
+{
+	font: arial, sans-serif;
+	position: absolute; 
+	top: 72px; 
+	left: 5px; 
+	z-index: 3; 
+	overflow: auto; 
+	height:394px;
+
+}
+.cashManagerDataDept
+{
+	width: 872px;
+}
+.cashManagerDataCM
+{
+	width: 988px;
+}
+.cashManagerDataAdmin
+{
+	width: 988px;
+}
+.cashManagerTrackerGridView  
+{
+	overflow:hidden;
+}
+.importData
+{
+	font: arial, sans-serif;
+	font-size: 9;
+	position: absolute; 
+	top: 125px; 
+	left: 5px; 
+	z-index: 3; 
+	overflow: auto; 
+	height:600px;
+	width: 100%;
+	min-width:900px;
+}
+.messages
+{
+	position: absolute; 
+ 	top: 34px; 
+ 	left: 5px; 
+ 	z-index: 1;
+ 	overflow: hidden; 
+ 	width: 100%;
+}
+.details  
+{
+	font: arial, sans-serif;
+	position: absolute; 
+	top: 470px; 
+	left: 5px; 
+	z-index: 1; 
+	overflow: auto; 
+	height: auto; 
+	width: auto;
+}
+.asOfDate
+{
+	font: arial, sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top:19px;
+	left: 470px;
+	z-index: 1;
+	overflow: hidden;
+	width: 200px;
+	height: auto;
+}
+.exitButton 
+{ 
+	width: 50px;
+	height: 20px;
+	font-size: 8pt;
+	vertical-align:top;
+}
+
+img.titlePic
+{
+	position:relative;
+	top:2px;
+}
+.NormalRow
+{
+	font-style:normal;
+	font-weight:normal;
+}
+.ChangedRow
+{
+	font-weight:bold;
+}
+.changedAmountField
+{
+	font-weight:bold;
+	text-align: right;
+}
+.right
+{
+	text-align: right;
+}
+.center
+{
+	text-align: center;
+}
+.left
+{
+	text-align: left;
+}
+.linkNoUnderline
+{
+  text-decoration: none;
+  line-height:1.4;
+}
+.linkNoUnderline a:link
+{
+  text-decoration: none;
+}
+.linkNoUnderline a:visited
+{
+  text-decoration: none;
+}
+.linkNoUnderline a:hover
+{
+  text-decoration: none;
+}
+.linkNoUnderline a:active
+{
+  text-decoration: none;
+}
+.parameterLabel
+{
+	font-weight: bold;
+}
+.parameterControl 
+{
+	width: 99px;
+}
+.parameterControlWide
+{
+	width: 175px;
+}
+.parameterControlOneHigh 
+{
+	height: 24px;
+}
+.parameterControlThreeHigh 
+{
+	height: 54px;
+}
+.legendTable
+{
+	background-color:White;
+	border-collapse:collapse;
+}
+.legendTitleCell
+{
+	font-size:8pt;
+	text-align:center;
+	font-weight:bold;
+	padding:0px 0px 0px 0px;
+	border-bottom-color:black;
+	border-top-color:black;
+	border-left-color:black;
+	border-right-color:black;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-bottom-width:1px;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-spacing:0px;
+}
+.legendCell
+{
+	font-size:8pt;
+	padding:0px 4px 0px 4px;
+	border-bottom-color:black;
+	border-top-color:black;
+	border-left-color:black;
+	border-right-color:black;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-bottom-width:0px;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-spacing:0px;
+}
+.parameterButton
+{
+	width: 75px;
+}
+.parmTable
+{
+	background-color:White;
+	border-collapse:collapse;
+}
+.headerTitleCell
+{
+	font-size:8pt;
+	color:#FFFFFF;
+	font-weight:bold;
+	width:100%;
+	height:15px;
+	text-align:center;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	border-bottom-width:2px;
+	border-top-style:solid;
+	border-top-color:black;
+	border-top-width:2px;
+	border-right-style:solid;
+	border-right-color:black;
+	border-right-width:2px;
+	border-left-style:solid;
+	border-left-color:black;
+	border-left-width:2px;
+	background-color:#2a76b2;
+	border-collapse:collapse;
+	padding-bottom:0px;
+	padding-top: 0px;
+
+	}
+.parameter
+{
+	font-size:9pt;
+	padding:4px 4px 4px 4px;
+	border-bottom-color:#2a76b2;
+	border-top-color:#2a76b2;
+	border-left-color:#2a76b2;
+	border-right-color:#2a76b2;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-bottom-width:6px;
+	border-top-width:6px;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-spacing:0px;
+}
+.parameterSpecialNotes
+{
+	font-size:10pt;
+	color:Red;
+	padding:4px 4px 4px 4px;
+	border-bottom-color:#2a76b2;
+	border-top-color:#2a76b2;
+	border-left-color:#2a76b2;
+	border-right-color:#2a76b2;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-bottom-width:6px;
+	border-top-width:6px;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-spacing:0px;
+}
+.red
+{
+	color:Red;
+}
+.green
+{
+	color:Green;
+}
+
+.headerImage
+{
+	border: none;
+	text-decoration: none;
+	cursor: hand;
+}
+.hidden
+{
+	display:none;
+	visibility:hidden;
+} 
+.displayNone
+{
+	display:none;
+} 
+.ShadedDataEntryColumn
+{
+	background-color:#D0D3D7;
+}
+.pageCount
+{
+	font-weight:bold;
+	color:#312D2D;
+}
+.searchTitle
+{
+	font-weight:bold;
+	font-size:10pt;
+}
+.searchInstructions 
+{
+	font-style:italic;
+}
+.disabledTextBox
+{
+	background-color:#C8C8C8;
+}
+.OptionButtonStandard
+{
+	width: 50px;
+	height: 20px;
+	font-size: 9px;
+}
+.GridViewTemplateFieldDataEntry
+{
+	font-family:Arial;
+	font-size:7.5pt;
+	color:Black;
+}
+.Arial10Black
+{
+	font-family:Arial;
+	font-size:10;
+	color:Black;
+}
+.Arial14GreenBold
+{
+	font-family:Arial;
+	font-size:14pt;
+	color:Green;
+	font-weight:bold;
+}
+.AlertCell
+{
+	color: #F8F3D2;
+	background-color:#7D110C;
+}
+.OverriddenText
+{
+	color:Green;
+}
+.Button1
+{
+	width: 80px;
+	height: 22px;
+	color:#fefced;
+	font: bold 97% Arial;
+	background-color:#2a76b2;
+	border: 1px solid;
+	border-color: #736F6E;
+	cursor:hand;
+}
+.Button2
+{
+	width: 80px;
+	color:Black;
+	font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+	background-color:#EB8123;
+	border: 1px solid;
+	border-color: Gray;
+	cursor:hand;
+	padding:0;
+	height: 20px;
+}
+.Button3
+{
+	width: 80px;
+	height: 18px;
+	color:#fefced;
+	font: bold 97% Arial;
+	background-color:#2a76b2;
+	border: 1px solid;
+	border-color: #736F6E;
+	cursor:hand;
+}
+.ButtonTest
+{
+	width: 80px;
+	color:#050;
+	font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+	background-color:#fed;
+	border: 1px solid;
+	border-color: #696 #363 #363 #696;
+	cursor:hand;
+}
+.ExpandLabel
+{
+	font-family:Arial;
+	font-weight:bold;
+	font-size:12pt;
+}
+.inputReadOnlyLabel
+{
+	width: 75px;
+	text-align:right;
+	border-style:none;
+	font-size: 8pt;
+}

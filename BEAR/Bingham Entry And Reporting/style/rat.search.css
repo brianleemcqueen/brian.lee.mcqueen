@@ -1,0 +1,116 @@
+﻿BODY
+{
+	text-align:left;
+}
+a:link
+{
+  color:#aab0b7;
+}
+a:visited
+{
+  color:#aab0b7;
+}
+a:hover
+{
+  color:#EB8123;
+}
+a:active
+{
+  color:#aab0b7;
+}
+.titleRat
+{ 
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	width: 95%;
+	text-align:left; 
+	z-index: 0;
+}
+.searchDivGridView
+{
+	position:absolute;
+	text-align: left;
+	overflow:auto;
+	height:auto;
+	width: 750px;
+	top:37px;
+	left:0px;
+	z-index:1;
+}
+.headerDetails
+{
+	position:absolute;
+	text-align: left;
+	overflow:auto;
+	height:auto;
+	margin-left: 0;
+	top:40px;
+	left:325px;
+	width: 325px;
+	z-index:1;
+}
+.searchSelected
+{
+	position:absolute;
+	text-align: left;
+	overflow:hidden;
+	height:auto;
+	margin-left: 0;
+	top:105px;
+	left:920px;
+	width: 320px;
+	z-index:1;
+}
+.searchResultsGridView
+{
+	position:relative;
+	z-index:100;
+	overflow:auto;
+	top:95px;
+	height:600px;
+	width:900px;
+	margin-left:0px;
+}
+.GridViewSearchResults
+{
+	overflow:hidden;
+	
+}
+.searchTitle
+{
+	position:relative;
+	text-align:left;
+}
+.leftBold
+{
+	text-align:left;
+	font-weight: Bold;
+}
+.lookupResults
+{
+	position:absolute;
+	z-index:1;
+	height:340px;
+	overflow:auto;
+	width:325px;
+}
+.lookupResultsBulk
+{
+	position:absolute;
+	z-index:1;
+	height:180px;
+	overflow:auto;
+	width:325px;
+}
+.dropDownList
+{
+	background-color:#aab0b7;
+	font-weight:normal;
+	font-size:9pt;
+}
+.templateStyle
+{
+	font-size:8pt;
+	font-family:Arial;
+}

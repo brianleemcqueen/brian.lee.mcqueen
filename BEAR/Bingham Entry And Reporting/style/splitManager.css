@@ -1,0 +1,189 @@
+﻿BODY
+{
+	text-align:left;
+}
+a:link
+{
+  color:#2a76b2;
+}
+a:visited
+{
+  color:#2a76b2;
+}
+a:hover
+{
+  color:Orange;
+}
+a:active
+{
+  color:#2a76b2;
+}
+.headerDiv
+{
+	position:absolute;
+	text-align: left;
+	overflow:auto;
+	height:auto;
+	margin-left: 0;
+	top:40px;
+	left:5px;
+	width: 425px;
+	z-index:1;
+}
+.searchDivMasterMatter
+{
+	position:absolute;
+	top: 40px;
+	width: 400px;
+	left: 375px;
+	height: 450px;
+	overflow:auto;
+	z-index:10;	
+}
+.searchDivSubMatter
+{
+	position:absolute;
+	top: 30px;
+	width: 400px;
+	left: 725px;
+	height: 450px;
+	overflow:auto;
+	z-index:10;	
+}
+.searchResultsSubMatter
+{
+	position:absolute;
+	z-index:1;
+	height:340px;
+	overflow:auto;
+	width:250px;
+}
+.pictureSM
+{
+	position:absolute;
+	top: 50px;
+	left: 40%;
+	z-index:0;	
+}
+.splitManagerDataDiv
+{
+	position:absolute;
+	z-index:100;
+	height:405px;
+	overflow:auto;
+	top:162px;
+	width:708px;
+	margin-left:0px;
+}
+.splitManagerGridView
+{
+	overflow:auto;
+	table-layout:fixed;
+}
+.addRecordDiv
+{
+	position:absolute;
+	z-index:99;
+	height:200px;
+	overflow:hidden;
+	top:5px;
+	width:200px;
+	margin-left:525px;
+}
+.divTotals
+{
+	position:absolute;
+	height:35px;
+	overflow:hidden;
+	top:110px;
+	width:708px;
+	margin-left:360px;
+}
+.divGridButtons
+{
+	position:absolute;
+	z-index:98;
+	height:30px;
+	overflow:hidden;
+	top:133px;
+	width:708px;
+	margin-left:0px;
+}
+.GridHeaderButton
+{
+	width: 80px;
+	height:24px;
+	color:Black;
+	font: bold 95% 'trebuchet ms',helvetica,sans-serif;
+	background-color:#EB8123;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-collapse:collapse;
+	border-color: Gray;
+	cursor:hand;
+}
+.GridHeaderRadioButtonList
+{
+	width: 170px;
+	height:24px;
+	color:Black;
+	font: bold 95% 'trebuchet ms',helvetica,sans-serif;
+	background-color:#EB8123;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-collapse:collapse;
+	border-color: Gray;
+	cursor:hand;
+}
+.DivMessage
+{
+	position:absolute;
+	top:40px;
+	left:350px;
+	width:170px;
+	font-weight:bold;
+	height:70px;
+	overflow:auto;
+}
+.searchTitle
+{
+	position:relative;
+	text-align:left;
+}
+.cellNoRightBorder
+{
+	border-style:solid;
+	border-color:#62676b;
+	border-bottom-width:1;
+	border-top-width:1;
+	border-left-width:1;
+	border-right-width:0;
+}
+.cellNoLeftBorder
+{
+	border-style:solid;
+	border-color:#62676b;
+	border-bottom-width:1;
+	border-top-width:1;
+	border-left-width:0;
+	border-right-width:1;
+}
+.cellNoBorders
+{
+	border-bottom-width:0;
+	border-top-width:0;
+	border-left-width:0;
+	border-right-width:0;
+}
+.tableTotals
+{
+	padding-bottom:0;
+	padding-top:0;
+	padding-left:1;
+	padding-right:1;
+	border-spacing:0;
+}

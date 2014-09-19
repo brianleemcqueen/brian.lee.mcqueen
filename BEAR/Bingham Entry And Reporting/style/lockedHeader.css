@@ -1,0 +1,40 @@
+﻿/*Locks the Header - designed to be placed in the <HeaderStyle> of a GridView*/
+.GridViewFixedHeader 
+{
+	position:relative;
+	top:expression(this.offsetParent.scrollTop-2);
+	/* left:expression(this.offsetParent.scrollLeft-1); */
+}
+
+.GridViewFixedFooter 
+{
+	position:relative;
+	bottom:expression(getScrollBottom(this.offsetParent));
+}
+
+/* Locks the left column */
+td.locked, th.locked 
+{
+	background-color: #aab0b7;
+	cursor: default;
+	position:relative;
+	left: expression(this.offsetParent.scrollLeft-2);
+	/*left: expression(document.getElementById("data").scrollLeft-2);*/
+}
+
+/* Locks table header - this will lock all table headers because it attaches to the <th> tag*/
+th 
+{
+	text-align: center;
+	position:relative;
+	cursor: default;
+	top:expression(this.offsetParent.scrollTop-2);
+	/*top: expression(document.getElementById("data").scrollTop-2);*/
+	z-index: 10;
+}
+
+/* Keeps the header as the top most item. Important for top left item(s)*/
+th.locked 
+{
+	z-index: 99;
+}

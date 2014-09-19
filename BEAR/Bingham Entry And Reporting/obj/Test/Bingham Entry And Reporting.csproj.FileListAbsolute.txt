@@ -1,0 +1,6 @@
+C:\Users\mcqueebl.BINGHAM\Documents\Visual Studio 2008\Projects\Bingham Entry And Reporting\Bingham Entry And Reporting\bin\Bingham Entry And Reporting.dll
+C:\Users\mcqueebl.BINGHAM\Documents\Visual Studio 2008\Projects\Bingham Entry And Reporting\Bingham Entry And Reporting\bin\AjaxControlToolkit.dll
+C:\Users\mcqueebl.BINGHAM\Documents\Visual Studio 2008\Projects\Bingham Entry And Reporting\Bingham Entry And Reporting\bin\Elmah.dll
+C:\Users\mcqueebl.BINGHAM\Documents\Visual Studio 2008\Projects\Bingham Entry And Reporting\Bingham Entry And Reporting\bin\AjaxControlToolkit.pdb
+C:\Users\mcqueebl.BINGHAM\Documents\Visual Studio 2008\Projects\Bingham Entry And Reporting\Bingham Entry And Reporting\obj\Test\ResolveAssemblyReference.cache
+C:\Users\mcqueebl.BINGHAM\Documents\Visual Studio 2008\Projects\Bingham Entry And Reporting\Bingham Entry And Reporting\obj\Test\Bingham Entry And Reporting.dll

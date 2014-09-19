@@ -1,0 +1,114 @@
+﻿BODY
+{
+	text-align:center;
+}
+a:link
+{
+  color:#2a76b2;
+}
+a:visited
+{
+  color:#2a76b2;
+}
+a:hover
+{
+  color:Orange;
+}
+a:active
+{
+  color:#2a76b2;
+}
+#OfficeListing
+{
+	height:125px;
+	overflow:auto;
+}
+.searchDivGridView
+{
+	position:absolute;
+	text-align: left;
+	overflow:auto;
+	height:auto;
+	width: 750px;
+	top:37px;
+	left:383px;
+	z-index:1;
+}
+.searchSelected
+{
+	position:absolute;
+	text-align: left;
+	overflow:auto;
+	height:auto;
+	margin-left: 0;
+	top:40px;
+	left:5px;
+	width: 375px;
+	z-index:1;
+}
+.searchResultsGridView
+{
+	position:relative;
+	z-index:100;
+	height:525px;
+	overflow:visible;
+	top:225px;
+	margin-left:-7px;
+}
+.GridViewSearchResults
+{
+	overflow:hidden;
+	table-layout:fixed;
+}
+.searchDivGridViewCAS
+{
+	position:absolute;
+	text-align: left;
+	overflow:auto;
+	height:auto;
+	width: 750px;
+	top:37px;
+	left:150px;
+	z-index:1;
+}
+.searchResultsGridViewCAS
+{
+	position:relative;
+	z-index:100;
+	height:525px;
+	overflow:scroll;
+	top:100px;
+	width:700px;
+	background-color:Red;
+	margin-left:0px;
+}
+.GridViewSearchResultsCAS
+{
+	overflow:auto;
+	table-layout:fixed;
+}
+.searchTitle
+{
+	position:relative;
+	text-align:left;
+}
+.leftBold
+{
+	text-align:left;
+	font-weight: Bold;
+}
+.borderLineTopBlack
+{
+	border-top-style:solid;
+	border-top-color:Black;
+	border-top-width:thin;
+
+}
+.TextBoxEditTokyo
+{
+	display:none;
+	font-size:8pt;
+	width:270px;
+	background-color:#D0D3D7;
+	
+}

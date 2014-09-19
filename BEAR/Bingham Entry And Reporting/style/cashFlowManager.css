@@ -1,0 +1,31 @@
+﻿.divTotalToPay
+{
+	position:absolute;
+	top: 5px;
+	left: 400px;
+}
+.inputAmountToPay
+{
+	width: 75px;
+	text-align:right;
+	font-size: 8pt;
+}
+.inputReadOnlyLabel_movedToStyle
+{
+	width: 75px;
+	text-align:right;
+	border-style:none;
+	font-size: 8pt;
+}
+.cashFlowManagerMessage  
+{
+	font: arial, sans-serif;
+	position: absolute; 
+	top: 72px; 
+	left: 400px; 
+	z-index: 3; 
+	overflow: auto; 
+	height:394px;
+	width: 99%;
+	min-width:900px;
+}

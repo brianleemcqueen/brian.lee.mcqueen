@@ -34,5 +34,7 @@ This is a collection of screen shots from applications designed from 2010 to 201
 * Web Architecture.pdf
 This shows the architecture setup while I worked with Vermont Information Processing (VIP).  VIP is an established (over 40 year old) company.  However, when I started with the company in 2010, they did not have a web presence.  My goal was to create this web presence while obtaining data from the legacy system on an IBM iSeries.  Web applications started as single stand alone applications and later were re-architected to a single application with a user manager side application to control authorization.
 
+All code originally written 2010
+
 Brian McQueen
 

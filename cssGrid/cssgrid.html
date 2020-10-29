@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>CSS Grid Layout Example</title>
+  <style type="text/css">
+    .container {
+      height: 100%;
+      display:grid;
+      grid-template-columns: 150px  auto ;
+      grid-template-rows: 100px auto 50px;
+    }
+    
+    .header {
+      background-color: peru;
+      overflow: hidden;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    
+    .side_nav {
+      background-color: aqua;
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+    
+    .content {
+      background-color: aquamarine;
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+    
+    .footer {
+      background-color: crimson;
+      grid-column: 1 / span 2;
+      grid-row: 3 / 4;
+      overflow: hidden;
+    }
+    
+    .anotherCell {
+      background-color: darksalmon;
+      grid-column: 3 / 4;
+      grid-row: 3 / 4;
+    }
+    
+    span {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">I am the <span>header</span></div>
+  <div class="content">I am <span>content</span></div>
+  <div class="side_nav">I is <span>nav</span></div>
+  <div class="footer"><span>footer</span> am I</div>
+</div>
+</body>
+</html>
